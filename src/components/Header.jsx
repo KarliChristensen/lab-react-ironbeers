@@ -14,10 +14,10 @@ function Header() {
         <Link className="text-white p-3 font-bold" to="/beers">
           Beers
         </Link>
-        <Link className="text-white p-3 font-bold" to="/new-beer">
+        <Link className="text-white p-3 font-bold" to="/random-beer">
           Random
         </Link>
-        <Link className="text-white p-3 font-bold" to="/random-beer">
+        <Link className="text-white p-3 font-bold" to="/new-beer">
           Create-a-beer
         </Link>
       </div>

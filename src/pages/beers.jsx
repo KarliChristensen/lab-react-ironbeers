@@ -10,7 +10,7 @@ function Beers() {
     axios.get(url).then((res) => {
       setData(res.data);
     });
-  }, []);
+  }, [url]);
 
   console.log(data);
 
