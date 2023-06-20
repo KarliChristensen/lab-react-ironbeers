@@ -16,7 +16,7 @@ function App() {
         <Route path="/beers" element={<Beers />} />
         <Route path="/beers/:beerId" element={<Beer />} />
         <Route path="/random-beer" element={<Randombeer />} />
-        <Route path="/new" element={<NewBeer />} />
+        <Route path="/new-beer" element={<NewBeer />} />
       </Routes>
     </div>
   );
